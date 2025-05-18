@@ -64,7 +64,8 @@ Pour gérer la taille d'une lettre envoyée
   ./(nom_de_executable) -l (Taille d une lettre)
 ```
 ## Fonctionnement
-La b.a.l. se lance et se met en attente de connexion. A une demande de connection, celle-ci attend une tramme renseignant le type : emmetteur 0 ou recepteur 1 et si emetteur le nombre et la taille des lettres.  
+La b.a.l. se lance et se met en attente de connexion. A une demande de connection, celle-ci attend une trame renseignant le type : emmetteur 0 ou recepteur 1.  
+Si emetteur le nombre et la taille des lettres.  
 Lorsqu'un emetteur envoie sa trame, puis ses lettres, la b.A.L. enregistre dans une double liste de cellules les lettres selon l'id du récepteur.  
 Lorsqu'un recepteur envoie sa trame, il reçoit succéssivement la taille des lettres puis la lettre, avec 0 pour arreter et -1 s'il n'y a pas de lettres à son id.
 
