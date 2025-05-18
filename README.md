@@ -3,7 +3,11 @@ Vaillant Thomas
 # B.A.L.
 Projet B.A.L. : Création de fonctions tsocks pour communiquuer en C dans un réseau et stocker les messages dans une boite aux lettres.
 ## Commandes utilisables
-Compilation gcc (nom_du_fichier).c -o (nom_de_l'éxécutable)  
+Compilation
+```bash
+   gcc (nom_du_fichier).c -o (nom_de_l'éxécutable)
+```
+  
 ```bash
   ./(nom_de_executable) -options (adresse destinataire si nécessaire) (numéro de port)
 ```
