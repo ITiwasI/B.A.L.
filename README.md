@@ -7,7 +7,7 @@ Compilation
 ```bash
    gcc (nom_du_fichier).c -o (nom_de_l'éxécutable)
 ```
-  
+Execution du code
 ```bash
   ./(nom_de_executable) -options (adresse destinataire si nécessaire) (numéro de port)
 ```
