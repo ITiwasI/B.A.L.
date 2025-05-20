@@ -1,12 +1,5 @@
-# Fichier source
-SRC = tsock-v3.c
+all:
+	gcc -Wall -Wextra -O2 tsock-v3.c -o tsock-v3
 
-# Nom de l'exécutable
-EXEC = tsock-v3
-
-# Règle par défaut (cible principale)
-all: $(EXEC)
-
-# Règle pour créer l'exécutable
-$(EXEC): $(SRC)
-	gcc  $(SRC) -o $(EXEC)
+clean:
+	rm -f tsock-v3
